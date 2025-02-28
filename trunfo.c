@@ -18,7 +18,7 @@ int main(){
     //Informações da Carta 1
 
     printf("Digite o estado(Ex: A, B, C) \n");
-    scanf("%c", &estado);
+    scanf(" %c", &estado);
 
     printf("Digite o código da carta(Ex: A1, A2, A3): \n");
     scanf("%s", &codigo);
@@ -41,7 +41,7 @@ int main(){
     //Informações Carta 2
 
     printf("Digite o estado(Ex: A, B, C) \n");
-    scanf("%c", &estado2);
+    scanf(" %c", &estado2);
 
     printf("Digite o código da carta(Ex: A1, A2, A3): \n");
     scanf("%s", &codigo2);
@@ -61,6 +61,9 @@ int main(){
     printf("Digite a quantidade de pontos turísticos: \n");
     scanf("%d", &turistico2);
 
+    //Visualização da carta de maneira menos poluída 
+    
+    printf("\n");
 
     // Carta 1
 
@@ -73,6 +76,10 @@ int main(){
     printf("Área: %f\n", area);
     printf("PIB: %f\n", pib);
     printf("Número de Pontos Turísticos: %d \n", turistico);
+
+    //Visualização da carta de maneira menos poluída 
+
+    printf("\n");
 
     // Carta 2
 
